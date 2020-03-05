@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XCCategoryKit'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of XCCategoryKit.'
+  s.version          = '1.0.0'
+  s.summary          = '新昌医惠组件化项目--XCCategoryKit'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
