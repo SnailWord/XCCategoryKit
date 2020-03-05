@@ -24,6 +24,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		7FDF7102E9D735C52592CFED /* Pods_XCCategoryKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C67127D3B225813A941B88EB /* Pods_XCCategoryKit_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		D1951C162410FAB700B5AD98 /* XCView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1951C152410FAB700B5AD98 /* XCView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		0E5D623AF2998794EB90D7FC /* Pods-XCCategoryKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCCategoryKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-XCCategoryKit_Tests/Pods-XCCategoryKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5D4EFE845222833096D8C3A2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5D4EFE845222833096D8C3A2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XCCategoryKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCCategoryKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,11 +60,13 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8178B3FE0C72C7B583877E22 /* XCCategoryKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XCCategoryKit.podspec; path = ../XCCategoryKit.podspec; sourceTree = "<group>"; };
+		8178B3FE0C72C7B583877E22 /* XCCategoryKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XCCategoryKit.podspec; path = ../XCCategoryKit.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A1441AAADB5F5124A0C36FE6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A1441AAADB5F5124A0C36FE6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B2983677A17972F8BC5BEF96 /* Pods-XCCategoryKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCCategoryKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XCCategoryKit_Tests/Pods-XCCategoryKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C67127D3B225813A941B88EB /* Pods_XCCategoryKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XCCategoryKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1951C142410FAB700B5AD98 /* XCView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCView.h; sourceTree = "<group>"; };
+		D1951C152410FAB700B5AD98 /* XCView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCView.m; sourceTree = "<group>"; };
 		E226626E0A902472C757E88A /* Pods-XCCategoryKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCCategoryKit_Example.release.xcconfig"; path = "Target Support Files/Pods-XCCategoryKit_Example/Pods-XCCategoryKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E424496E42B5ED87EC824576 /* Pods-XCCategoryKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCCategoryKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-XCCategoryKit_Example/Pods-XCCategoryKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		ED6B692124B228F961B44362 /* Pods_XCCategoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XCCategoryKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,7 +106,6 @@
 				B2983677A17972F8BC5BEF96 /* Pods-XCCategoryKit_Tests.debug.xcconfig */,
 				0E5D623AF2998794EB90D7FC /* Pods-XCCategoryKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -193,6 +195,8 @@
 				8178B3FE0C72C7B583877E22 /* XCCategoryKit.podspec */,
 				5D4EFE845222833096D8C3A2 /* README.md */,
 				A1441AAADB5F5124A0C36FE6 /* LICENSE */,
+				D1951C142410FAB700B5AD98 /* XCView.h */,
+				D1951C152410FAB700B5AD98 /* XCView.m */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -258,6 +262,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -365,6 +370,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* XCAppDelegate.m in Sources */,
+				D1951C162410FAB700B5AD98 /* XCView.m in Sources */,
 				6003F5A7195388D20070C39A /* XCViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
