@@ -28,10 +28,10 @@
 		D1951CA92411FC6900B5AD98 /* FFMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1951CA52411FC6900B5AD98 /* FFMainView.m */; };
 		D1951CAA2411FC6900B5AD98 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = D1951CA72411FC6900B5AD98 /* .gitkeep */; };
 		D1951CB0241201E900B5AD98 /* XCCategoryTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D1951CAF241201E900B5AD98 /* XCCategoryTools.m */; };
-		D1951CB324120B4900B5AD98 /* XCOne.m in Sources */ = {isa = PBXBuildFile; fileRef = D1951CB224120B4900B5AD98 /* XCOne.m */; };
 		D1951D5124120F8900B5AD98 /* XCTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = D1951D5024120F8900B5AD98 /* XCTwo.m */; };
 		D1951D6024122AA600B5AD98 /* XCThree.m in Sources */ = {isa = PBXBuildFile; fileRef = D1951D5F24122AA600B5AD98 /* XCThree.m */; };
 		D1951D6624122E2100B5AD98 /* XCThree.m in Sources */ = {isa = PBXBuildFile; fileRef = D1951D6524122E2100B5AD98 /* XCThree.m */; };
+		D1951D6924122E6400B5AD98 /* XCYYY.m in Sources */ = {isa = PBXBuildFile; fileRef = D1951D6824122E6400B5AD98 /* XCYYY.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,14 +80,14 @@
 		D1951CA72411FC6900B5AD98 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		D1951CAE241201E900B5AD98 /* XCCategoryTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCCategoryTools.h; sourceTree = "<group>"; };
 		D1951CAF241201E900B5AD98 /* XCCategoryTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCCategoryTools.m; sourceTree = "<group>"; };
-		D1951CB124120B4900B5AD98 /* XCOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCOne.h; sourceTree = "<group>"; };
-		D1951CB224120B4900B5AD98 /* XCOne.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCOne.m; sourceTree = "<group>"; };
 		D1951D4F24120F8900B5AD98 /* XCTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCTwo.h; sourceTree = "<group>"; };
 		D1951D5024120F8900B5AD98 /* XCTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCTwo.m; sourceTree = "<group>"; };
 		D1951D5E24122AA600B5AD98 /* XCThree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCThree.h; sourceTree = "<group>"; };
 		D1951D5F24122AA600B5AD98 /* XCThree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCThree.m; sourceTree = "<group>"; };
 		D1951D6424122E2100B5AD98 /* XCThree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCThree.h; sourceTree = "<group>"; };
 		D1951D6524122E2100B5AD98 /* XCThree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCThree.m; sourceTree = "<group>"; };
+		D1951D6724122E6400B5AD98 /* XCYYY.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCYYY.h; sourceTree = "<group>"; };
+		D1951D6824122E6400B5AD98 /* XCYYY.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCYYY.m; sourceTree = "<group>"; };
 		E226626E0A902472C757E88A /* Pods-XCCategoryKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCCategoryKit_Example.release.xcconfig"; path = "Target Support Files/Pods-XCCategoryKit_Example/Pods-XCCategoryKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E424496E42B5ED87EC824576 /* Pods-XCCategoryKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCCategoryKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-XCCategoryKit_Example/Pods-XCCategoryKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		ED6B692124B228F961B44362 /* Pods_XCCategoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XCCategoryKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -251,12 +251,12 @@
 				D1951CA52411FC6900B5AD98 /* FFMainView.m */,
 				D1951CAE241201E900B5AD98 /* XCCategoryTools.h */,
 				D1951CAF241201E900B5AD98 /* XCCategoryTools.m */,
-				D1951CB124120B4900B5AD98 /* XCOne.h */,
-				D1951CB224120B4900B5AD98 /* XCOne.m */,
 				D1951D4F24120F8900B5AD98 /* XCTwo.h */,
 				D1951D5024120F8900B5AD98 /* XCTwo.m */,
 				D1951D6424122E2100B5AD98 /* XCThree.h */,
 				D1951D6524122E2100B5AD98 /* XCThree.m */,
+				D1951D6724122E6400B5AD98 /* XCYYY.h */,
+				D1951D6824122E6400B5AD98 /* XCYYY.m */,
 			);
 			path = mainView;
 			sourceTree = "<group>";
@@ -442,11 +442,11 @@
 				D1951D6624122E2100B5AD98 /* XCThree.m in Sources */,
 				6003F59E195388D20070C39A /* XCAppDelegate.m in Sources */,
 				D1951CA92411FC6900B5AD98 /* FFMainView.m in Sources */,
+				D1951D6924122E6400B5AD98 /* XCYYY.m in Sources */,
 				6003F5A7195388D20070C39A /* XCViewController.m in Sources */,
 				D1951CA82411FC6900B5AD98 /* UITableViewCell+FFAdd.m in Sources */,
 				D1951D6024122AA600B5AD98 /* XCThree.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				D1951CB324120B4900B5AD98 /* XCOne.m in Sources */,
 				D1951D5124120F8900B5AD98 /* XCTwo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
