@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '8.0'
 
 target 'XCCategoryKit_Example' do
-  pod 'XCCategoryKit', :path => '../'
+#  pod 'XCCategoryKit', :path => '../'
 
   target 'XCCategoryKit_Tests' do
     inherit! :search_paths
