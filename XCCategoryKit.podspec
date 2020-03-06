@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XCCategoryKit'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = '新昌医惠组件化项目--XCCategoryKit'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/iTwinkle/XCCategoryKit', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.ios.deployment_target = '9.0'
-  s.source_files = 'XCCategoryKit/Classes/*.{h,m}'
+  s.source_files = 'XCCategoryKit/Classes/**/*.{h,m}'
   # s.resource_bundles ={
   #   'XCCategoryKit' => ['XCCategoryKit/Assets/*.png']
   # }
