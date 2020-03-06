@@ -113,7 +113,6 @@
 				6003F593195388D20070C39A /* Example for XCCategoryKit */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
-				6003F58B195388D20070C39A /* Products */,
 				57B86322160B436E7A06FBF3 /* Pods */,
 			);
 			sourceTree = "<group>";
@@ -130,6 +129,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6003F58B195388D20070C39A /* Products */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -189,11 +189,20 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				D1951C352411ED8E00B5AD98 /* XCCategoryKit */,
 				8178B3FE0C72C7B583877E22 /* XCCategoryKit.podspec */,
 				5D4EFE845222833096D8C3A2 /* README.md */,
 				A1441AAADB5F5124A0C36FE6 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		D1951C352411ED8E00B5AD98 /* XCCategoryKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = XCCategoryKit;
+			path = ../XCCategoryKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
