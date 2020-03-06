@@ -27,6 +27,7 @@
 		D1951CA82411FC6900B5AD98 /* UITableViewCell+FFAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D1951CA42411FC6900B5AD98 /* UITableViewCell+FFAdd.m */; };
 		D1951CA92411FC6900B5AD98 /* FFMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1951CA52411FC6900B5AD98 /* FFMainView.m */; };
 		D1951CAA2411FC6900B5AD98 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = D1951CA72411FC6900B5AD98 /* .gitkeep */; };
+		D1951CAD2411FE1700B5AD98 /* XCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D1951CAC2411FE1700B5AD98 /* XCTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,8 @@
 		D1951CA42411FC6900B5AD98 /* UITableViewCell+FFAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+FFAdd.m"; sourceTree = "<group>"; };
 		D1951CA52411FC6900B5AD98 /* FFMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFMainView.m; sourceTree = "<group>"; };
 		D1951CA72411FC6900B5AD98 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		D1951CAB2411FE1700B5AD98 /* XCTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCTest.h; sourceTree = "<group>"; };
+		D1951CAC2411FE1700B5AD98 /* XCTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCTest.m; sourceTree = "<group>"; };
 		E226626E0A902472C757E88A /* Pods-XCCategoryKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCCategoryKit_Example.release.xcconfig"; path = "Target Support Files/Pods-XCCategoryKit_Example/Pods-XCCategoryKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E424496E42B5ED87EC824576 /* Pods-XCCategoryKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCCategoryKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-XCCategoryKit_Example/Pods-XCCategoryKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		ED6B692124B228F961B44362 /* Pods_XCCategoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XCCategoryKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -232,6 +235,8 @@
 				D1951CA32411FC6900B5AD98 /* FFCellProtocol.h */,
 				D1951CA42411FC6900B5AD98 /* UITableViewCell+FFAdd.m */,
 				D1951CA52411FC6900B5AD98 /* FFMainView.m */,
+				D1951CAB2411FE1700B5AD98 /* XCTest.h */,
+				D1951CAC2411FE1700B5AD98 /* XCTest.m */,
 			);
 			path = mainView;
 			sourceTree = "<group>";
@@ -398,6 +403,7 @@
 				D1951CA92411FC6900B5AD98 /* FFMainView.m in Sources */,
 				6003F5A7195388D20070C39A /* XCViewController.m in Sources */,
 				D1951CA82411FC6900B5AD98 /* UITableViewCell+FFAdd.m in Sources */,
+				D1951CAD2411FE1700B5AD98 /* XCTest.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
